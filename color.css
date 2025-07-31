@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background-color: lightblue;
+}
+#color-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+#text{
+    text-decoration: underline;
+}
+#color-input{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightcyan;
+}
+.btn{
+    border: 2px solid lightcoral;
+    margin: 3px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+}
