@@ -3,7 +3,7 @@
 A simple web app to change the background color of the page using user input or random color generation.
 
 ## Features
-- Enter a color name or value to set the background color.
+- Enter any color name or value to set the background color.
 - Generate a random color using the "Suprise-me" button.
 - Clean and responsive UI.
 
