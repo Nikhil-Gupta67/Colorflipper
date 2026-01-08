@@ -19,4 +19,4 @@ A simple web app to change the background color of the page using user input or 
 - `README.md` – Project documentation
 
 ## Author
-Nikhil Gupta--
+Nikhil Gupta
