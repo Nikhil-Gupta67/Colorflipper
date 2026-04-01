@@ -2,15 +2,19 @@
 let inputColor = document.getElementById("color-input");
 let generateColor = document.getElementById("generate-color");
 let randomColor = document.getElementById("random-color");
+let currentColorDisplay = document.getElementById("current-color");
 
 generateColor.addEventListener("click", () => {
-    document.body.style.backgroundColor = inputColor.value;
-    inputColor.value = ""; 
+    const color = inputColor.value;
+    document.body.style.backgroundColor = color;
+    currentColorDisplay.textContent = `Current Color: ${color}`;
+    inputColor.value = "";
 });
 
 randomColor.addEventListener("click", () => {
     const random = generate_random_color();
     document.body.style.backgroundColor = random;
+    currentColorDisplay.textContent = `Current Color: ${random}`;
 });
 
 function generate_random_color() {
