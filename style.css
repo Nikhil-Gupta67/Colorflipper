@@ -14,7 +14,12 @@ body {
     border-radius: 5px;
 }
 #text{
-    text-decoration: underline;
+    margin-bottom: 20px;
+}
+#current-color {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
 }
 #color-input{
     border: 2px solid black;
@@ -28,4 +33,6 @@ body {
     border-radius: 10px;
     background-color: lightgray;
     cursor: pointer;
+    padding: 10px 20px;
+    display: inline-block;
 }
