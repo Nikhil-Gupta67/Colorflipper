@@ -16,7 +16,7 @@ A simple web app to change the background color of the page using user input or 
 3. Click **Surprise Me** to set a random background color.
 4. The current color code is displayed below the input.
 
-## Project Structure--
+## Project Structure
 
 - `index.html` – Main HTML file
 - `style.css` – Styles for the app
