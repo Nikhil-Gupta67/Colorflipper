@@ -23,6 +23,6 @@ A simple web app to change the background color of the page using user input or 
 - `script.js` – JavaScript logic for color changing
 - `README.md` – Project documentation
 
-## Author--
+## Author
 
 Nikhil Gupta
